@@ -66,6 +66,7 @@ predicted = sess.run(correct_pred,
 print(sample_labels)
 print(predicted)
 
+
 # Display the predictions and the ground truth visually.
 fig = plt.figure(figsize=(10, 10))
 for i in range(len(sample_images)):

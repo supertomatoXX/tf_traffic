@@ -25,7 +25,7 @@ def load_data(data_directory):
 
 #images and labels are list
 
-ROOT_PATH="/Users/qtz/Documents/tf/BelgiumTS"
+ROOT_PATH="/Users/qtz/Documents/tf_traffic/BelgiumTS"
 train_data_directory=os.path.join(ROOT_PATH,"TrafficSigns/Training")
 test_data_directory=os.path.join(ROOT_PATH,"TrafficSigns/Testing")
 images,labels=load_data(train_data_directory)
